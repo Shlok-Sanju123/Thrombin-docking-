@@ -77,6 +77,6 @@ Screening complete. Scores below use the pocket judged most representative per c
 
 ## Repository Contents
 
-- `results.csv` — full compound-by-compound docking results
+- `results final.csv` — full compound-by-compound docking results
 - `README.md` — this file
 
