@@ -1,0 +1,21 @@
+compound,category,vina_score,notes
+Dabigatran,Positive control - direct thrombin inhibitor,-9.4,Redocking validation: matches literature active site (Asp189/Trp215/Gly216) and template 1kts - confirms pipeline reliability.
+Acetaminophen,Negative-ish control - no known thrombin mechanism,-5.7,Weak/moderate score as expected; matched a different reference template (1no9) than dabigatran's validated result.
+Amlodipine,Screening - blood pressure (calcium channel blocker),-5.9,"Moderate, unremarkable score; contact residues suggest the recurring active-site pocket."
+Apixaban,Screening - anticoagulant (Factor Xa inhibitor),-8.5,"Strong score despite targeting a different clotting protein than thrombin - possible cross-reactivity, not a confirmed finding."
+Aspirin,Negative control - no known thrombin mechanism,-5,"Weak score, and its best-scoring pocket was confirmed to NOT be the real active site - a strong negative-control result."
+Atorvastatin,Screening - cholesterol (statin),-8.4,Strong score despite an unrelated target (HMG-CoA reductase); lands in the same recurring active-site pocket.
+Cetirizine,Screening - antihistamine,-7.4,"Moderate-good score, same recurring active-site pocket signature as several other compounds."
+Clopidogrel,Screening - antiplatelet (P2Y12 receptor),-6.4,Moderate score; related to clotting broadly but does not target thrombin specifically.
+Diazepam,Screening - anxiety/sedation (benzodiazepine),-8.6,Second-strongest score overall despite no plausible thrombin link - key evidence for the pocket-permissiveness pattern.
+Furosemide,Screening - diuretic,-6.8,"Moderate, routine result fitting the established recurring-pocket pattern."
+Ibuprofen,Screening - NSAID,-4.7,Weak top-pocket score; an alternate pocket scored -5.9 but was not investigated further (no expected thrombin mechanism either way).
+Loratadine,Screening - antihistamine,-8.4,Strong score; notably outscored same-class cetirizine despite chemical similarity.
+Losartan,Screening - blood pressure (ARB),-7.3,"Moderate-good score, fits the established recurring-pocket pattern."
+Metformin,Screening - diabetes,-5.5,Weakest score spread of the whole screen; the one compound that did not favor the usual large permissive pocket - useful outlier for discussion.
+Metoprolol,Screening - blood pressure (beta blocker),-3.6,"Weakest top-pocket score logged; an alternate pocket scored -5.9, comparable to several mid-table results."
+Naproxen,Screening - NSAID,-5.2,"Weak, routine result; same drug class as ibuprofen."
+Rivaroxaban,Screening - anticoagulant (Factor Xa inhibitor),-6.2,Notably weaker than same-class apixaban despite sharing the same real-world mechanism.
+Sertraline,Screening - antidepressant (SSRI),-8.1,"Strong score, consistent with the recurring permissive-pocket pattern."
+Simvastatin,Screening - cholesterol (statin),-7,Best-pocket score used (default pocket was a poor pose); notably weaker than same-class atorvastatin despite shared mechanism.
+Warfarin,Screening - anticoagulant (vitamin K antagonist),-8.1,Strong score despite not directly binding thrombin in real biology - cross-reactivity flag. Final compound of the 20-compound screen.
